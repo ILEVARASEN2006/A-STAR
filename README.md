@@ -151,7 +151,8 @@ J 0 <br>
 <hr>
 <h2>Sample Output</h2>
 
-<img width="1046" height="767" alt="image" src="https://github.com/user-attachments/assets/0319cbb2-fc87-437d-a6c2-8c15ea2137e7" />
+<img width="1757" height="597" alt="image" src="https://github.com/user-attachments/assets/499f5c29-872e-4452-a346-819bb884b3fb" />
+
 
 <hr>
 Path found: ['A', 'F', 'G', 'I', 'J']
@@ -161,9 +162,7 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <h2>Sample Graph II</h2>
 <hr>
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
-
-
+[image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
 <hr>
 <h3>Program</h2>
 <hr>
@@ -224,9 +223,9 @@ def get_neighbors(v):
 
 def heuristic(n):
     return H_dist.get(n, float('inf'))  # Return infinity if no heuristic is provided for a node
-```
 
-# Graph input section
+
+     # Graph input section
 graph = defaultdict(list)
 n, e = map(int, input().split())
 for i in range(e):
@@ -243,7 +242,7 @@ Graph_nodes = graph
 print("Heuristics:", H_dist)
 print("Graph:", graph)
 
-# Running the A* algorithm
+    # Running the A* algorithm
 start_node, stop_node = 'A', 'J'  # Set the start and stop node based on your problem
 aStarAlgo(start_node, stop_node)
 ```
@@ -265,7 +264,9 @@ D 1 <br>
 G 0 <br>
 <hr>
 <h2>Sample Output</h2>
+
 <img width="1400" height="612" alt="image" src="https://github.com/user-attachments/assets/1848e562-464a-4ed4-98ed-541d3d1818f0" />
+
 <hr>
 Path found: ['A', 'E', 'D', 'G']
 
