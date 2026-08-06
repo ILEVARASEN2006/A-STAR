@@ -265,8 +265,8 @@ G 0 <br>
 <h2>Sample Output</h2>
 <img width="1400" height="612" alt="image" src="https://github.com/user-attachments/assets/1848e562-464a-4ed4-98ed-541d3d1818f0" />
 
-### RESULT:
-Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
-
 <hr>
 Path found: ['A', 'E', 'D', 'G']
+
+### RESULT:
+Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
