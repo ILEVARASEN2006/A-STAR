@@ -41,8 +41,7 @@ e) push q on the closed list end (while loop)
 <hr>
 <h3>Program</h3>
 <hr>
-
-```
+```python
 from collections import defaultdict
 
 H_dist = {}
@@ -100,8 +99,7 @@ def get_neighbors(v):
 def heuristic(n):
     return H_dist.get(n, float('inf'))  # Return infinity if no heuristic is provided for a node
 
-# Graph input section
-graph = defaultdict(list)
+graph = defaultdict(list) # Graph input section
 n, e = map(int, input().split())
 for i in range(e):
     u, v, cost = input().split()
@@ -117,7 +115,7 @@ Graph_nodes = graph
 print("Heuristics:", H_dist)
 print("Graph:", graph)
 
-# Running the A* algorithm
+      # Running the A* algorithm
 start_node, stop_node = 'A', 'J'  # Set the start and stop node based on your problem
 aStarAlgo(start_node, stop_node)
 
