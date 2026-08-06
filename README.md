@@ -226,6 +226,7 @@ def get_neighbors(v):
 
 def heuristic(n):
     return H_dist.get(n, float('inf'))  # Return infinity if no heuristic is provided for a node
+```
 
 # Graph input section
 graph = defaultdict(list)
@@ -250,7 +251,7 @@ aStarAlgo(start_node, stop_node)
 ```
 <hr>
 <h2>Sample Input</h2>
-
+<hr>
 6 6 <br>
 A B 2 <br>
 B C 1 <br>
@@ -267,9 +268,8 @@ G 0 <br>
 <hr>
 <h2>Sample Output</h2>
 <img width="1400" height="612" alt="image" src="https://github.com/user-attachments/assets/1848e562-464a-4ed4-98ed-541d3d1818f0" />
-
 <hr>
 Path found: ['A', 'E', 'D', 'G']
 
-# RESULT:
+<hr3>RESULT</hr3>
 Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
